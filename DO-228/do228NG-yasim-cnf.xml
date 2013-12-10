@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList include="do228NG-base.xml">
+
+  <sim>
+
+    <description>Do 228 NG (YASim)</description>
+    <author>E. Barranger; T. Henkel and others</author>
+    <flight-model>yasim</flight-model>
+    <aero>do228NG-yasim</aero>
+
+  </sim>
+    
+</PropertyList>

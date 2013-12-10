@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+   
+  <name>lights-dlg</name>
+  <layout>vbox</layout>
+   
+  <text>
+    <label>Do228 Options</label>
+  </text>
+   
+  <hrule />
+   
+  <group>
+    <layout>vbox</layout>
+     
+      
+    <checkbox>
+      <label>Strobe</label>
+      <property>controls/lighting/strobe</property>
+      <binding>
+        <command>dialog-apply</command>
+      </binding>
+      <live>true</live>
+    </checkbox>
+        
+    <checkbox>
+      <label>Nav-lights</label>
+      <property>controls/lighting/nav-lights</property>
+      <binding>
+        <command>dialog-apply</command>
+      </binding>
+      <live>true</live>
+    </checkbox>
+         
+    <checkbox>
+      <label>Beacon</label>
+      <property>controls/lighting/beacon</property>
+      <binding>
+        <command>dialog-apply</command>
+      </binding>
+      <live>true</live>
+    </checkbox>
+         
+    <checkbox>
+      <label>Land Light</label>
+      <property>controls/lighting/landing-lights</property>
+      <binding>
+        <command>dialog-apply</command>
+      </binding>
+      <live>true</live>
+    </checkbox>
+	
+	<checkbox>
+      <label>Instruments</label>
+      <property>controls/lighting/instrument-lights</property>
+      <binding>
+        <command>dialog-apply</command>
+      </binding>
+      <live>true</live>
+    </checkbox>
+
+	
+    <!--          
+    <text>
+      <label>Panel</label>
+    </text>
+         
+    <slider>
+      <width>200</width>
+      <property>controls/lighting/instruments-norm</property>
+      <step>0.005</step>
+      <min>0</min>
+      <max>1</max>
+      <binding>
+        <command>dialog-apply</command>
+      </binding>
+    </slider>
+         
+
+    <text>
+      <label>Cabin dimmer</label>
+    </text>
+       
+    <slider>
+      <width>200</width>
+      <property>controls/lighting/panel</property>
+      <step>0.05</step>
+      <min>0</min>
+      <max>2.5</max>
+      <binding>
+        <command>dialog-apply</command>
+      </binding>
+    </slider>
+    -->
+       
+    <hrule />
+       
+    <checkbox>
+      <label>Master</label>
+      <binding>
+        <command>dialog-apply</command>
+      </binding>
+      <binding>
+        <command>property-toggle</command>
+        <property>controls/lighting/instrument-lights</property>
+      </binding>
+      <binding>
+        <command>property-toggle</command>
+        <property>controls/lighting/strobe</property>
+      </binding>
+      <binding>
+        <command>property-toggle</command>
+        <property>controls/lighting/nav-lights</property>
+      </binding>
+      <binding>
+        <command>property-toggle</command>
+        <property>controls/lighting/beacon</property>
+      </binding>
+      <binding>
+        <command>property-toggle</command>
+        <property>controls/lighting/landing-lights</property>
+      </binding>         
+      <live>true</live>
+    </checkbox>
+	
+	  <checkbox>
+        <label>Stairs</label>
+		<property>sim/model/stairs</property>
+		<condition>
+          <property>sim/model/door-positions/cargo1/position-norm</property>
+          <value>0</value>
+        </condition>
+		<binding>
+          <command>property-toggle</command>
+          <property>sim/model/stairs</property>
+        </binding>
+		<live>true</live>
+      </checkbox>
+	
+  </group>
+
+  <hrule />
+
+  <group>
+    <layout>vbox</layout>
+    <button>
+      <legend>Close</legend>
+      <default>true</default>
+      <key>Esc</key>
+      <padding>10</padding>
+      <binding>
+        <command>dialog-apply</command>
+      </binding>
+      <binding>
+        <command>dialog-close</command>
+      </binding>
+    </button>
+  </group>
+
+</PropertyList>

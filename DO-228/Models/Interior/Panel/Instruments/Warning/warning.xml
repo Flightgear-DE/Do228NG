@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>warning.ac</path>
+
+  <animation>
+    <object-name>base</object-name>
+    <object-name>on</object-name>
+  </animation>
+
+  <animation>
+    <type>material</type>
+    <object-name>on</object-name>
+    <emission>
+      <red>   0.50 </red>
+      <green> 0.25 </green>
+      <blue>  0.25 </blue>
+    </emission>
+  </animation>
+
+</PropertyList>

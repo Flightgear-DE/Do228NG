@@ -1,0 +1,207 @@
+
+
+Developement in progress!
+if someone is willed to help or has allready done something on the 228, 
+plz contact Cpt Goosnen in FG Forum, or at http://forum.flightgear-de.net
+
+ THX!
+ 
+ ps: the yasims are both more fictiv! i got much trouble with the balance offset so i juggled the values!
+     do228-yasim wingdatas are the original from helijah, NG is my imagine of it.... so ...far from real 
+	 but i hope not too far, if someone know how to get a (more rl) stall >>go for it ;)
+
+
+
+
+
+
+::228-200::
+
+
+source: http://www.flugzeuginfo.net/acdata_php/acdata_do228_dt.php
+
+
+STOL Mehrzweckflugzeug / Regionalverkehrsflugzeug
+
+Die Dornier Do 228 ist ein zweimotoriges STOL Mehrzweckflugzeug und Regionalverkehrsflugzeug 
+für maximal 19 Passagiere des deutschen Herstellers Dornier GmbH, heute von RUAG Aerospace 
+Services GmbH als Do 228NG hergestellt. Die Do 228 wird auch von HAL, Hindustan Aeronautics 
+Limited in Indien als HAL Dornier Do-228 in Lizenz produziert.
+Besatzung	2
+Passagiere	19
+ 
+Antriebsart	2 Turboprop Triebwerke
+Triebwerkstyp	Garrett TPE331-5
+Leistung je TW	525 kW	704 shp
+ 
+Geschwindigkeit	428 km/h	231 kts
+  266 mph
+Dienstgipfelhöhe	8.534 m	28.000 ft
+Reichweite	600 km	324 NM
+373 mi.
+ 
+Leergewicht	3.086 kg	6.803 lbs
+max. Startmasse	5.700 kg	12.566 lbs
+ 
+Spannweite	16,97 m	55,7 ft
+Tragflügelfläche	32,0 m²	344 ft²
+Länge	16,56 m	54,3 ft
+Höhe	4,86 m	15,9 ft
+ 
+Erstflug	09.05.1981
+Produktionsstatus	in Produktion
+Gesamtproduktion	>500
+ 
+ICAO Code	D228
+FAA TCDS	A16EU
+Daten für (Version)	Dornier Do 228-200
+Varianten	Do 228-101, Do 228-200, Do 228-201, Do 228-202, Do 228-212 (Do 228 NG)
+
+
+
+
+
+::228-101::
+
+	 DLR datas: (should be the lighter 228-101 but they have also a 212) 
+	 
+source: http://www.dlr.de
+	 
+	 Die Dornier vom Typ DO228 wird im Institut für Flugführung zur Validierung und Bewertung 
+	 von Führungssystemen und -verfahren im Flugzeugcockpit eingesetzt.
+
+Der Flugversuchsträger ist durch folgende Werte gekennzeichnet:
+
+    MTOW: 5980 kg
+    Höchstgeschwindigkeit: 200 kt  (Max)
+    Reisegeschwindigkeit 160 kt    (Cruise)
+    Dienstgipfelhöhe: 25000 ft     (Max)
+    Maximale Flugdauer: 9 Stunden
+
+Als Grundversuchsausrüstung steht den Wissenschaftlern an Bord Folgendes zur Verfügung:
+
+    Spannungsversorgung 28V Gleichstrom, 115V/400 Hz und 220V/50 Hz Wechselstrom
+    Inertial Navigationssystem LTN90
+    VOR und ILS Empfänger
+    Omnistar System mit Novatel GPS Empfänger mit Dezimeter-Genauigkeit
+    Versuchsantennen an der Ober- und Unterseite des Rumpfes
+    Zwei spezielle Testracks, die je 200 Kg an Versuchsgeräten aufnehmen können
+
+
+
+
+
+
+
+::RUAG 228NG::
+
+
+Cruise at Max Cruise Speed
+
+10,000 ft, ISA
+240 KTAS
+444 km/h
+
+Cruise at Max Range Speed
+3,000 ft, ISA
+185 KTAS
+343 km/h
+
+
+
+Distance 
+
+5:24 Hours
+990 NM
+
+
+Distance 
+
+6:38 Hours
+1,230 NM   with 2250kg fuel
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+English/Français
+
+[English]
+----------
+
+A little history
+================
+
+Dornier Do 228
+==============
+
+Manufacturer                  : 
+Type                          : 
+Year                          : 
+Powerplant                    : 
+Wingspan                      : 
+Length                        : 
+Height                        : 
+weight max                    : 
+Cruise speed                  : 
+Range                         : 
+Crew                          :  
+
+Some useful keys:
+=================
+
+Thanks
+======
+
+===============
+BARANGER Emmanuel
+August, 21, 2013. 
+
+http://helijah.free.fr/flightgear/hangar.htm
+embaranger@free.fr
+
+
+[Français]
+----------
+
+Un peu d'histoire
+=================
+
+Dornier Do 228
+==============
+
+Constructeur                  : 
+Type                          : 
+Année                         : 
+Moteur                        : 
+Envergure                     : 
+Longueur                      : 
+Hauteur                       : 
+Poids max au décollage        : 
+Vitesse estimée de croisière  : 
+Autonomie estimée             : 
+Equipage                      : 
+
+
+Quelques touches utiles :
+=========================
+
+Remerciements
+=============
+
+===============
+BARANGER Emmanuel
+21 Août 2013.
+
+http://helijah.free.fr/flightgear/hangar.htm
+embaranger@free.fr

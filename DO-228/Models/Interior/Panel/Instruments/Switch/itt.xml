@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1"?> 
+
+<PropertyList>
+
+  <path>itt.ac</path>
+
+  <animation>
+    <object-name>Switch</object-name>
+    <object-name>base</object-name>
+    <object-name>info</object-name>
+  </animation>
+
+  <animation>
+    <type>material</type>
+    <object-name>Switch</object-name>
+    <object-name>base</object-name>
+    <object-name>info</object-name>
+    <emission>
+	<factor-prop>/controls/lighting/panel-norm</factor-prop>
+      <red>   0.1 </red>
+      <green> 0.04 </green>
+      <blue>  0.04 </blue>
+    </emission>
+  </animation>
+
+
+</PropertyList>
+
+

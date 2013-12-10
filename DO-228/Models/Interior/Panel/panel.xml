@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>panel.ac</path>
+
+  <animation>
+    <!-- Objets opaques -->
+    <object-name>panel</object-name>
+
+    <!-- Objets transparents -->
+  </animation>
+
+  
+ <model>
+    <path>Aircraft/DO-228/Models/Interior/Panel/Instruments/marker/marker.xml</path>
+    <offsets>
+      <x-m>  0.003 </x-m>
+      <y-m> -0.459 </y-m>
+      <z-m>  0.135 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/DO-228/Models/Interior/Panel/Instruments/marker/marker.xml</path>
+    <offsets>
+      <x-m> 0.003 </x-m>
+      <y-m> 0.459 </y-m>
+      <z-m> 0.135 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- AI -->
+  <model>
+    <path>Aircraft/DO-228/Models/Interior/Panel/Instruments/ai/ai.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m> -0.459 </y-m>
+      <z-m>  0.042 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/DO-228/Models/Interior/Panel/Instruments/ai/ai.xml</path>
+    <offsets>
+      <x-m> 0.000 </x-m>
+      <y-m> 0.459 </y-m>
+      <z-m> 0.042 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/DO-228/Models/Interior/Panel/Instruments/ai2/ai.xml</path>
+    <offsets>
+      <x-m> 0.000 </x-m>
+      <y-m> 0.252 </y-m>
+      <z-m> 0.159 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- ALT -->
+  <model>
+    <path>Aircraft/DO-228/Models/Interior/Panel/Instruments/alt/alt.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m> -0.349 </y-m>
+      <z-m>  0.051 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/DO-228/Models/Interior/Panel/Instruments/alt/alt.xml</path>
+    <offsets>
+      <x-m> 0.000 </x-m>
+      <y-m> 0.568 </y-m>
+      <z-m> 0.051 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- ASI -->
+  <model>
+    <path>Aircraft/DO-228/Models/Interior/Panel/Instruments/asi/asi.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m> -0.568 </y-m>
+      <z-m>  0.038 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/DO-228/Models/Interior/Panel/Instruments/asi/asi.xml</path>
+    <offsets>
+      <x-m> 0.000 </x-m>
+      <y-m> 0.349 </y-m>
+      <z-m> 0.038 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- ADF -->
+  <model>
+    <path>Aircraft/DO-228/Models/Interior/Panel/Instruments/adf/rmi.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m> -0.568 </y-m>
+      <z-m> -0.078 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/DO-228/Models/Interior/Panel/Instruments/adf/rmi.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m>  0.349 </y-m>
+      <z-m> -0.078 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- HSI -->
+  <model>
+    <path>Aircraft/DO-228/Models/Interior/Panel/Instruments/HSI/hsi.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m> -0.458 </y-m>
+      <z-m> -0.078 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/DO-228/Models/Interior/Panel/Instruments/HSI/hsi.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m>  0.458 </y-m>
+      <z-m> -0.078 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- VSI -->
+  <model>
+    <path>Aircraft/DO-228/Models/Interior/Panel/Instruments/vsi/vsi.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m> -0.349 </y-m>
+      <z-m> -0.049 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/DO-228/Models/Interior/Panel/Instruments/vsi/vsi.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m>  0.568 </y-m>
+      <z-m> -0.049 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- TURN -->
+  <model>
+    <path>Aircraft/DO-228/Models/Interior/Panel/Instruments/turn/turn.xml</path>
+    <offsets>
+      <x-m> -0.001 </x-m>
+      <y-m> -0.660 </y-m>
+      <z-m>  0.048 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/DO-228/Models/Interior/Panel/Instruments/turn/turn.xml</path>
+    <offsets>
+      <x-m> -0.001 </x-m>
+      <y-m>  0.660 </y-m>
+      <z-m>  0.048 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- MAG-COMPASS -->
+  <model>
+    <path>Aircraft/DO-228/Models/Interior/Panel/Instruments/mag-compass/mag-compass.xml</path>
+    <offsets>
+      <x-m> 0.002 </x-m>
+      <y-m> 0.000 </y-m>
+      <z-m> 0.250 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- LIGHT SWITCH -->
+  <model>
+    <path>Aircraft/DO-228/Models/Interior/Panel/Instruments/Switch/land-lights.xml</path>
+    <offsets>
+      <x-m>  0.001 </x-m>
+      <y-m> -0.640 </y-m>
+      <z-m>  0.130 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/DO-228/Models/Interior/Panel/Instruments/Switch/land-lights.xml</path>
+    <offsets>
+      <x-m> 0.001 </x-m>
+      <y-m> 0.574 </y-m>
+      <z-m> 0.130 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/DO-228/Models/Interior/Panel/Instruments/Switch/instr-lights.xml</path>
+    <offsets>
+      <x-m>  0.001 </x-m>
+      <y-m> -0.607 </y-m>
+      <z-m>  0.130 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/DO-228/Models/Interior/Panel/Instruments/Switch/instr-lights.xml</path>
+    <offsets>
+      <x-m> 0.001 </x-m>
+      <y-m> 0.607 </y-m>
+      <z-m> 0.130 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/DO-228/Models/Interior/Panel/Instruments/Switch/batt-lights.xml</path>
+    <offsets>
+      <x-m>  0.001 </x-m>
+      <y-m> -0.574 </y-m>
+      <z-m>  0.130 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/DO-228/Models/Interior/Panel/Instruments/Switch/batt-lights.xml</path>
+    <offsets>
+      <x-m> 0.001 </x-m>
+      <y-m> 0.640 </y-m>
+      <z-m> 0.130 </z-m>
+    </offsets>
+  </model>  
+  
+  <model>
+    <path>Aircraft/DO-228/Models/Interior/Panel/Instruments/Switch/nav-lights.xml</path>
+    <offsets>
+      <x-m>  0.082 </x-m>
+      <y-m> -0.040 </y-m>
+      <z-m>  0.680 </z-m>
+	  <pitch-deg> 45 </pitch-deg> 
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/DO-228/Models/Interior/Panel/Instruments/Switch/beacon.xml</path>
+    <offsets>
+      <x-m>  0.082 </x-m>
+      <y-m> -0.007 </y-m>
+      <z-m>  0.680 </z-m>
+	  <pitch-deg> 45 </pitch-deg> 
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/DO-228/Models/Interior/Panel/Instruments/Switch/strobe.xml</path>
+    <offsets>
+      <x-m>  0.082 </x-m>
+      <y-m> -0.073 </y-m>
+      <z-m>  0.680 </z-m>
+	  <pitch-deg> 45 </pitch-deg> 
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/DO-228/Models/Interior/Panel/Instruments/Switch/start.xml</path>
+    <offsets>
+      <x-m>  0.001 </x-m>
+      <y-m> -0.150 </y-m>
+      <z-m>  0.117 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/DO-228/Models/Interior/Panel/Instruments/Switch/start.xml</path>
+    <offsets>
+      <x-m>  0.001 </x-m>
+      <y-m> -0.089 </y-m>
+      <z-m>  0.117 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/DO-228/Models/Interior/Panel/Instruments/Switch/itt.xml</path>
+    <offsets>
+      <x-m>  0.001 </x-m>
+      <y-m> -0.195 </y-m>
+      <z-m>  0.020 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/DO-228/Models/Interior/Panel/Instruments/Switch/itt.xml</path>
+    <offsets>
+      <x-m>  0.001 </x-m>
+      <y-m> -0.044 </y-m>
+      <z-m>  0.020 </z-m>
+    </offsets>
+  </model>
+
+  
+  <!-- ENGINES GAUGES -->
+  <!-- TORQUE -->
+  <model>
+    <path>Aircraft/DO-228/Models/Interior/Panel/Instruments/engines/torq/torq1.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m> -0.150 </y-m>
+      <z-m>  0.067 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/DO-228/Models/Interior/Panel/Instruments/engines/torq/torq2.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m> -0.089 </y-m>
+      <z-m>  0.067 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- ITT -->
+  <model>
+    <path>Aircraft/DO-228/Models/Interior/Panel/Instruments/engines/itt/itt1.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m> -0.150 </y-m>
+      <z-m>  0.005 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/DO-228/Models/Interior/Panel/Instruments/engines/itt/itt2.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m> -0.089 </y-m>
+      <z-m>  0.005 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- FUEL FLOW -->
+  <model>
+    <path>Aircraft/DO-228/Models/Interior/Panel/Instruments/engines/fflow/fflow1.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m> -0.150 </y-m>
+      <z-m> -0.057 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/DO-228/Models/Interior/Panel/Instruments/engines/fflow/fflow2.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m> -0.089 </y-m>
+      <z-m> -0.057 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- RPM -->
+  <model>
+    <path>Aircraft/DO-228/Models/Interior/Panel/Instruments/engines/rpm/rpm1.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m> -0.150 </y-m>
+      <z-m> -0.119 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/DO-228/Models/Interior/Panel/Instruments/engines/rpm/rpm2.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m> -0.089 </y-m>
+      <z-m> -0.119 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- OIL -->
+  <model>
+    <path>Aircraft/DO-228/Models/Interior/Panel/Instruments/engines/oil/oilp1.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m> -0.150 </y-m>
+      <z-m> -0.181 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/DO-228/Models/Interior/Panel/Instruments/engines/oil/oilp2.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m> -0.089 </y-m>
+      <z-m> -0.181 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- GEAR CONTROL -->
+  <model>
+    <path>Aircraft/DO-228/Models/Interior/Panel/Instruments/gear/gearctl.xml</path>
+    <offsets>
+      <x-m> -0.001 </x-m>
+      <y-m> -0.274 </y-m>
+      <z-m> -0.111 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- GEAR -->
+  <model>
+    <path>Aircraft/DO-228/Models/Interior/Panel/Instruments/gear/gear.xml</path>
+    <offsets>
+      <x-m>  0.00000 </x-m>
+      <y-m> -0.35331 </y-m>
+      <z-m> -0.13052 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- Warning   --> 
+  <model>
+    <path>Aircraft/DO-228/Models/Interior/Panel/Instruments/Warning/warning.xml</path>
+	<condition>
+      <property>instrumentation/annutest</property>
+    </condition>
+    <offsets>
+      <x-m> 0.00151 </x-m>
+      <y-m> 0.07442 </y-m>
+      <z-m> 0.15430 </z-m>
+    </offsets>
+  </model>   
+  
+  <model>
+    <path>Aircraft/DO-228/Models/Interior/Panel/Instruments/Warning/warning0.xml</path>
+    <offsets>
+      <x-m> 0.00149 </x-m>
+      <y-m> 0.07442 </y-m>
+      <z-m> 0.15430 </z-m>
+    </offsets>
+  </model>
+  
+    <!-- Test-->
+  <model>
+    <path>Aircraft/DO-228/Models/Interior/Panel/Instruments/test/test.xml</path>
+    <offsets>
+      <x-m> -0.00094 </x-m>
+      <y-m>  0.06966 </y-m>
+      <z-m> -0.08151 </z-m>
+    </offsets>
+  </model> 
+  
+  
+</PropertyList>

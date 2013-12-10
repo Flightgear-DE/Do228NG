@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?> 
+
+<PropertyList>
+
+  <path>start.ac</path>
+
+  <animation>
+    <type>select</type>
+    <object-name>Switch</object-name>
+    <object-name>base</object-name>
+    <condition>
+        <property>/gear/gear[12]/wow</property> 
+    </condition>
+  </animation>
+  
+  <animation>
+    <object-name>info</object-name>
+  </animation>
+
+  <animation>
+    <type>material</type>
+    <object-name>info</object-name>   
+	<condition>
+	<property>controls/lighting/instrument-lights</property> 
+	<not>
+        <property>/engines/engine[1]/running</property> 
+		<value>true</value>
+	</not>
+    </condition>
+	<factor-prop>/controls/lighting/panel-norm</factor-prop>
+    <emission>
+      <red>   0.25 </red>
+      <green> 0.2 </green>
+      <blue>  0.2 </blue>
+    </emission>
+  </animation>
+  
+  <animation>
+    <type>material</type>
+    <object-name>info</object-name>
+	<condition>
+        <property>/engines/engine[1]/running</property> 
+		<value>true</value>
+    </condition>
+    <emission>
+	<factor-prop>/controls/lighting/panel-norm</factor-prop>
+      <red>   1.4 </red>
+      <green> 1.5 </green>
+      <blue>  1.4 </blue>
+    </emission>
+  </animation>
+
+  <animation>
+    <type>pick</type>
+    <object-name>info</object-name>
+    <action>
+      <button>0</button>
+      <repeatable>false</repeatable>
+      <binding>
+        <command>property-toggle</command>
+        <property>consumables/fuel/tank[0]/selected</property>
+      </binding>
+      <binding>
+        <command>property-toggle</command>
+        <property>consumables/fuel/tank[1]/selected</property>
+      </binding>
+	  <binding>
+        <command>property-assign</command>
+        <property>/controls/engines/engine[0]/throttle</property> 
+         <value>0.032</value>
+	  </binding>
+	  <binding>
+        <command>property-assign</command>
+        <property>/controls/engines/engine[1]/throttle</property> 
+         <value>0.032</value>
+	  </binding>
+    </action>
+  </animation>
+
+
+
+</PropertyList>
+
+

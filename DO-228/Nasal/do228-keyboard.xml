@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <key n="5">
+    <name>Ctrl-e</name>
+    <desc>Soute</desc>
+    <binding>
+      <command>nasal</command>
+      <script>doors.soute.toggle();</script>
+    </binding>
+  </key>
+
+   <key n="68">
+    <name>D</name>
+    <desc>crew door</desc>
+    <binding>
+     <command>nasal</command>
+     <script>doors.passenger.toggle();</script>
+    </binding>
+   </key>
+  
+   <key n="100">
+    <name>d</name>
+    <desc>Crew door</desc>
+    <binding>
+     <command>nasal</command>
+     <script>doors.crew.toggle();</script>
+    </binding>
+   </key>
+
+   
+  <key n="99">
+    <name>c</name>
+    <desc>Cargo doors</desc>
+    <binding>
+      <command>nasal</command>
+      <script>doors.cargo1.toggle();</script>
+    </binding>
+  </key>
+  
+  <key n="67">
+    <name>C</name>
+    <desc>Cargo stairs</desc>
+    <binding>
+      <command>nasal</command>
+      <script>doors.cargo2.toggle();</script>
+    </binding>
+  </key>
+   
+   <key n="101">
+    <name>e</name>
+    <desc>Bagages</desc>
+    <binding>
+     <command>nasal</command>
+     <script>doors.bagages.toggle();</script>
+    </binding>
+   </key>
+
+   
+          <key n="77">
+                <name>M</name>
+                <desc>Condition leaner</desc>
+                <repeatable type="bool">true</repeatable>
+                <binding>
+                    <command>property-adjust</command>
+                    <property>controls/engines/engine[0]/condition</property>
+                    <step>-0.01</step>
+                    <min>0</min>
+                    <max>1</max>
+                    <wrap>0</wrap>
+                </binding>
+                <binding>
+                    <command>property-adjust</command>
+                    <property>controls/engines/engine[1]/condition</property>
+                    <step>-0.01</step>
+                    <min>0</min>
+                    <max>1</max>
+                    <wrap>0</wrap>
+                </binding>
+            </key>
+             <key n="109">
+                <name>m</name>
+                <desc>Condition richer</desc>
+                <repeatable type="bool">true</repeatable>
+                <binding>
+                    <command>property-adjust</command>
+                    <property>controls/engines/engine[0]/condition</property>
+                    <step>0.01</step>
+                    <min>0</min>
+                    <max>1</max>
+                    <wrap>0</wrap>
+                </binding>
+                <binding>
+                    <command>property-adjust</command>
+                    <property>controls/engines/engine[1]/condition</property>
+                    <step>0.01</step>
+                    <min>0</min>
+                    <max>1</max>
+                    <wrap>0</wrap>
+                </binding>
+            </key>
+   
+</PropertyList>
