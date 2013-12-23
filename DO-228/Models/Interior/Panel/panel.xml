@@ -10,25 +10,6 @@
 
     <!-- Objets transparents -->
   </animation>
-
-  
- <model>
-    <path>Aircraft/DO-228/Models/Interior/Panel/Instruments/marker/marker.xml</path>
-    <offsets>
-      <x-m>  0.003 </x-m>
-      <y-m> -0.459 </y-m>
-      <z-m>  0.135 </z-m>
-    </offsets>
-  </model>
-  
-  <model>
-    <path>Aircraft/DO-228/Models/Interior/Panel/Instruments/marker/marker.xml</path>
-    <offsets>
-      <x-m> 0.003 </x-m>
-      <y-m> 0.459 </y-m>
-      <z-m> 0.135 </z-m>
-    </offsets>
-  </model>
   
   <!-- AI -->
   <model>
