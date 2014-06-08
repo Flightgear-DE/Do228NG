@@ -61,8 +61,8 @@
     <path>Aircraft/DO-228/Models/Interior/Panel/panel.xml</path>
     <offsets>
       <x-m> -5.43219 </x-m>
-      <y-m>  0.00000 </y-m>
-      <z-m> -0.73647 </z-m>
+      <y-m>  0.00000 </y-m> <!-- links-rechts-->
+      <z-m> -0.70647 </z-m> <!-- hoehe -->
     </offsets>
   </model>
 
