@@ -11,6 +11,24 @@
     <!-- Objets transparents -->
   </animation>
   
+  <model>
+    <path>Aircraft/DO-228/Models/Interior/Panel/sunblends.xml</path>
+    <offsets>
+      <x-m>  0.140 </x-m>
+      <y-m> -0.368 </y-m>
+      <z-m>  0.638 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/DO-228/Models/Interior/Panel/sunblends.xml</path>
+    <offsets>
+      <x-m>  0.140 </x-m>
+      <y-m> 0.368 </y-m>
+      <z-m>  0.638 </z-m>
+    </offsets>
+  </model>
+
   <!-- AI -->
   <model>
     <path>Aircraft/DO-228/Models/Interior/Panel/Instruments/ai/ai.xml</path>
